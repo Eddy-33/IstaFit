@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ccecb4;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Fantasy, sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+    font-family: Fantasy, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h3, h4 {
+    font-size: 2rem;
+    color: #5e5e5e;
+}
+
+nav {
+    background-color: #5e5e5e;
+    color: #ccecb4;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ccecb4;
+    margin: 0 15px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #5e5e5e;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ccecb4;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.clothingImg {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.clothing-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.clothing-table th, .clothing-table td {
+    border: 1px solid #5e5e5e;
+    padding: 10px;
+    text-align: center;
+}
+
+.clothing-table th {
+    background-color: #5e5e5e;
+    color: #ccecb4;
+    font-family: Arial, sans-serif;
+    font-size: 1.25rem;
+}
+
+.clothing-table td {
+    background-color: #ccecb4;
+    font-size: 1.1rem;
+}
+
+.clothing-table img {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.clothing-table td p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+#wrapper {
+    background-color: #ccecb4;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.row {
+    background-color: #ccecb4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+#newsletter-form {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#newsletter-form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+#newsletter-form button {
+    background-color: #5e5e5e;
+    color: #ccecb4;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newsletter-form button:hover {
+    background-color: #4a4a4a;
+}
+
+svg {
+    margin-top: 20px;
+    border: 2px solid #5e5e5e;
+    border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .clothingImg {
+        max-width: 300px;
+    }
+}
